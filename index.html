@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My Profile</h1>
+
+    <h2>Profile Information</h2>
+    <p id="name"></p>
+    <p id="age"></p>
+    <p id="developer"></p>
+    <p id="hobbyCount"></p>
+
+    <h2>Update Profile</h2>
+
+    <form id="profileForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="number" id="birthYear" placeholder="Birth Year" required>
+        <button type="submit">Create / Update Profile</button>
+    </form>
+
+    <h2>My Hobbies</h2>
+
+    <ul id="hobbyList"></ul>
+
+    <input type="text" id="newHobby" placeholder="Enter new hobby">
+
+    <button id="addButton">Add Item</button>
+    <button id="removeButton">Remove Item</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
